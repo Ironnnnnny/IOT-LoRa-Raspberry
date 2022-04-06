@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WIFI_demo</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="xxx.xxx.xxx.xxx">xxx.xxx.xxx.xxxx</string>
+    <string name="up">↑</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="down">↓</string>
+    <string name="_0_0">接收 0 次, 发送 0 次</string>
+    <string name="zero">null</string>
+    <string name="send">Send</string>
+</resources>
