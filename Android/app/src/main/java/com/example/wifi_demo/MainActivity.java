@@ -14,6 +14,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -103,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
                 byte[] buffer = new byte[1024];
                 int count = inputStream.read(buffer);//count是传输的字节数
                 recv_buff = new String(buffer);
-                recv_count++;//socket通信传输的是byte类型，需要转为String类型
                 System.out.println("recv_buff: "+recv_buff);
 
             } catch (IOException e) {
@@ -249,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
                         if(outputStream!=null){
                             try {
                                 outputStream.write(send_buff.getBytes());
+                                send_count++;
                                 System.out.println("send_buff: " + send_buff);
                                 outputStream.flush();
                                 et_send.setText("");
