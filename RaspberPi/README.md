@@ -1,6 +1,6 @@
 #### create_ap
-    github上的开源项目,用于开启树莓派的wifi,具体使用方法可参考:
-    [create_ap](https://github.com/oblique/create_ap)
+  github上的开源项目,用于开启树莓派的wifi.
+  具体使用方法可参考:[create_ap](https://github.com/oblique/create_ap)
 - - - 
 + #### Script
     脚本文件
